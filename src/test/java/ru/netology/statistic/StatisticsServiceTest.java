@@ -19,11 +19,11 @@ public class StatisticsServiceTest {
     }
 
     @Test
-    void findMaxNotFirstIncome(){
-        StatisticsService service=new StatisticsService();
-        long[] incomeInBillions={5,8,4,5,12,3,8,6,11,11,12};
-        long expected=12;
-        long actual= service.findMax(incomeInBillions);
-        Assertions.assertEquals(expected,actual);
+    void findMaxNotFirstIncome() {
+        StatisticsService service = new StatisticsService();
+        long[] incomeInBillions = {5, 8, 4, 5, 12, 3, 8, 6, 11, 11, 12};
+        long expected = 12;
+        long actual = service.findMax(incomeInBillions);
+        Assertions.assertEquals(expected, actual);
     }
 }
